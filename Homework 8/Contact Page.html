@@ -3,7 +3,7 @@
     <title>Contact us</title>
     <link href="External Sheet.css" rel="stylesheet">
     <style>
-        span{background-color: rgb(97, 163, 160);}
+        span{background-color: rgb(143, 219, 215);}
     </style>
 </head>
 
@@ -12,7 +12,20 @@
     Please enter your name,
     Phone number 
     and a valid Email address
+
     <head>
+        <script>
+            function txt
+            {var Name = document.getElementById("Name").value;
+        if(Name == "")
+        {
+            document.getElementById("Name").focus;
+            document.getElementById("Name").style.backgroundColor = "red";
+            document.getElementById("NameMessage").innerHTML = "*Required";
+            document.getElementById("NameMessage").style.color = "red";
+            return false;
+        }
+        </script>
       
         <script>
             function getData()
@@ -24,9 +37,10 @@
                 document.getElementById("finalResult").innerHTML = "name: " + name + " phone: " + phone + "email: "+ email;
             }
         </script>
+        
           <script>
 
-            { window.alert ("Please enter all fields");}
+            { window.alert ("I wanna cry");}
 
         </script>
         <body>
