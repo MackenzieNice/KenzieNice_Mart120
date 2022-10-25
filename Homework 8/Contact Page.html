@@ -1,0 +1,77 @@
+<html>
+<head>
+    <title>Contact us</title>
+    <link href="External Sheet.css" rel="stylesheet">
+    <style>
+        span{background-color: rgb(97, 163, 160);}
+    </style>
+</head>
+
+<body>
+    <h1><span>Contact Us</h1></span>
+    Please enter your name,
+    Phone number 
+    and a valid Email address
+    <head>
+        <script>
+            function checkbox()
+            var Name;
+            Name = document.getElementById("Name").value;
+            if(Name == "")
+            { window.alert "Please Enter ALL fields";}
+        </script>
+        <script>
+            function getData()
+            {
+                var name = document.getElementById("txtName").value;
+                var phone = document.getElementById("txtPhone").value;
+                var email = document.getElementById("txtEmail").value;
+    
+                document.getElementById("finalResult").innerHTML = "name: " + name + " phone: " + phone + "email: "+ email;
+            }
+        </script>
+        <body>
+            <table>
+                <tr>
+                    <td>Name</td>
+                    <td><input type="text" id="txtName"></td>
+                </tr>
+                <tr>
+                    <td>Phone Number</td>
+                    <td><input type="text" id="txtPhone"></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td><input type="text" id="txtEmail"></td>
+                </tr>
+                <tr>
+                    <td colspan="3"><button id="btnSubmit" onClick="getData();">Submit</button></td>
+                </tr>
+            </table>
+            <div id="finalResult"></div>
+        </body>
+
+        <body> 
+            <h4>Terms and Conditions</h4>
+        </body>
+      Please hit Agree
+        <table> 
+            <tr>
+        <td colspan="1"><button id="btnSubmit" onClick="getData();">Agree</button></td>
+        <td colspan="1"><button id="btnSubmit" onClick="getData();">Disagree</button></td>
+        
+    </tr>
+    </table>
+    <div id="finalResult"></div>
+      </head>
+
+    <span>
+        <h2> Main Page </h2>
+    <a href="file:///C:/Users/Blubunny/Documents/Coding/Webpage%20HTLM/First%20Website1.html">Main Page</a>
+
+    <h3> Second Page </h3>
+<a href="file:///C:/Users/Blubunny/Documents/Coding/2ndWebpage2.html">Second Page</a>
+</span>
+</body>
+
+</html>
