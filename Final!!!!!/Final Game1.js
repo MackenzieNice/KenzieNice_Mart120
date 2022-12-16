@@ -31,19 +31,20 @@ var x = 50;
     var mouseShapeX;
     var mouseShapeY;
 
+  function createBackground()
+  background(0,0,200);
+  stroke(0)
+  fill(0)
+
     function setup()
     {
         createCanvas(900,1000);
         createBackground();
         createObstacles();
     }
-    function draw()
-   {
 
-  {function createBackground()
-  background(0,0,200);
-  stroke(0)
-  fill(0)}
+  function draw()
+   
   //top
   rect(0,0, width,10);
   rect(0,0,10,height);
@@ -183,7 +184,7 @@ if(shapeY3 < 0)
     text("You Escaped!", width/2-75, height/2-50);
   }
 
-}
+
 
   function mouseClicked()
   {
